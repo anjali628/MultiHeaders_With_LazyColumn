@@ -58,15 +58,15 @@ fun MultiHeadersWithLazyColumn(){
                         modifier = Modifier.weight(1f)
                     ) {
                         Text(
-                            text = type, style = MaterialTheme.typography.displayLarge.copy(
-                                fontWeight = FontWeight.W700,
-                                color = Color.Black
+                            text = type, style = MaterialTheme.typography.displayMedium.copy(
+                                fontWeight = FontWeight.W500,
+                                color = Color.White
                             )
                         )
                         Text(
                             text = "(${items.size})",
-                            style = MaterialTheme.typography.displayLarge.copy(
-                                color = Color.Black
+                            style = MaterialTheme.typography.displayMedium.copy(
+                                color = Color.White
                             )
                         )
                     }
